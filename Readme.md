@@ -70,4 +70,7 @@ if st.button("Send"):
                 box.markdown(output)
 ```
 
-# 
+# Why host the web interface on the Mac ?
+
+Actually this is a good question.... You could move the Web Service (streamlit) to the Windows PC also. That would make sense.
+
