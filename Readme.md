@@ -1,3 +1,18 @@
+# Local LLM and how to access it - in a WebUI manner 
+
+I have installed **OLLAMA**, and added a few models, both on Windows and on a Mac.
+
+My Windows machine has a nice fat GPU in it - the mac does not.
+My Windows machine does very little when  I am programming, the Mac is my workhorse.
+
+So I chose to install **OLLAMA** on the Windows - so I can expirement with LLMs.
+
+But I now want to query this LLM from my Mac - without installing Docker, Open-Ui, npm and a host of other stuff.
+
+Something like this
+
+![](./flow.png)
+
 
 ## Software 
 
@@ -55,4 +70,4 @@ if st.button("Send"):
                 box.markdown(output)
 ```
 
-
+# 
